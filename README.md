@@ -9,3 +9,7 @@ brew tap Egia-Code/brew-liltim
 brew install lil-tim
 ```
 
+## Project
+
+Main project is private for now.
+
