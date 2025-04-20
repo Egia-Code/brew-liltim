@@ -86,6 +86,8 @@ timo clean
 - [x] Report generation + export (CSV/JSON)
 - [x] Bar chart visualization in terminal
 - [x] In-memory and persistent tests
+- [ ] Subtasks
+- [ ] Projects
 - [ ] Optional task tagging
 - [ ] Bash/Zsh autocompletion
 - [ ] Linking tasks with GitHub/git
