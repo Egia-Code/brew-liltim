@@ -5,21 +5,21 @@
 class LilTim < Formula
   desc "CLI timer to track time on tasks"
   homepage "https://github.com/Egia-Code/lil-tim"
-  version "0.1.13"
+  version "0.1.14"
   license "Proprietary (Custom)"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/Egia-Code/lil-tim/releases/download/v0.1.13/lil-tim_0.1.13_darwin_amd64.tar.gz"
-    sha256 "d08257a9494b3b12f66d067563eddd6e26aec902990ee6c91c4f53ee189a9e88"
+    url "https://github.com/Egia-Code/brew-liltim/releases/download/v0.1.14/timo_0.1.14_darwin_amd64.tar.gz"
+    sha256 "60fc44ce54f6ca85384aa627505351c5eaf207495098873f23c9d158674e4628"
 
     def install
       bin.install "lil-tim"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/Egia-Code/lil-tim/releases/download/v0.1.13/lil-tim_0.1.13_darwin_arm64.tar.gz"
-    sha256 "6153fc02dc38c25cb06ddc11f2ee4b91d8e3e4a10154ed12a4763f986d5c93c3"
+    url "https://github.com/Egia-Code/brew-liltim/releases/download/v0.1.14/timo_0.1.14_darwin_arm64.tar.gz"
+    sha256 "9e98b4406203e9daa007ec0169044d9b32be75ca44bffbd6c4e783e747954dc3"
 
     def install
       bin.install "lil-tim"
