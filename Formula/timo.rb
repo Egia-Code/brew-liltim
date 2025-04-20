@@ -5,21 +5,21 @@
 class Timo < Formula
   desc "CLI timer to track time on tasks"
   homepage "https://github.com/Egia-Code/homebrew-timo"
-  version "0.1.18"
+  version "0.1.19"
   license "Proprietary (Custom)"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/Egia-Code/homebrew-timo/releases/download/v0.1.18/timo_0.1.18_darwin_amd64.tar.gz"
-    sha256 "92db419f2d4648033600c55d0b910fdcf6ebe7c90c041e2807d80ac35b107aea"
+    url "https://github.com/Egia-Code/homebrew-timo/releases/download/v0.1.19/timo_0.1.19_darwin_amd64.tar.gz"
+    sha256 "486d4b06a735f3b82b79909550eafe708e29815c589fd3ebf842fc0f976bbd8b"
 
     def install
       bin.install "timo"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/Egia-Code/homebrew-timo/releases/download/v0.1.18/timo_0.1.18_darwin_arm64.tar.gz"
-    sha256 "d8c3b222946f1a2d7b3ef8b4b58640e091c55f68d825a1ded5061eb6a9439dc0"
+    url "https://github.com/Egia-Code/homebrew-timo/releases/download/v0.1.19/timo_0.1.19_darwin_arm64.tar.gz"
+    sha256 "683680ad9a8db0db3ca857af5a0a5d1199a2fd8aef93a5df703607ea6e3d811c"
 
     def install
       bin.install "timo"
